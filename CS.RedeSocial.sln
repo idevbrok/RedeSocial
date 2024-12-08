@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0D84EB93-4B56-4040-9FDF-58B6333FF457}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1343D8ED-E5AD-4E02-AE84-BA2309DBC696}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS.RedeSocial.Tests", "test\CS.RedeSocial.Tests\CS.RedeSocial.Tests.csproj", "{0891B8D3-3E5E-4EC4-B27C-336DDABA6C0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS.RedeSocial.Domain", "src\CS.RedeSocial.Domain\CS.RedeSocial.Domain.csproj", "{5FE77756-E87D-4249-B2A4-492BD493E193}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0891B8D3-3E5E-4EC4-B27C-336DDABA6C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0891B8D3-3E5E-4EC4-B27C-336DDABA6C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0891B8D3-3E5E-4EC4-B27C-336DDABA6C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0891B8D3-3E5E-4EC4-B27C-336DDABA6C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE77756-E87D-4249-B2A4-492BD493E193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE77756-E87D-4249-B2A4-492BD493E193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE77756-E87D-4249-B2A4-492BD493E193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE77756-E87D-4249-B2A4-492BD493E193}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0891B8D3-3E5E-4EC4-B27C-336DDABA6C0B} = {1343D8ED-E5AD-4E02-AE84-BA2309DBC696}
+		{5FE77756-E87D-4249-B2A4-492BD493E193} = {0D84EB93-4B56-4040-9FDF-58B6333FF457}
+	EndGlobalSection
+EndGlobal
